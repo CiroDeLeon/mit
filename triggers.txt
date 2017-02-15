@@ -1,0 +1,11 @@
+# subject trigger named t1
+t1 PHRASE the
+# title trigger named t2
+t2 TITLE java
+# phrase trigger named t3
+t3 PHRASE domain driven design
+t6 PHRASE computer
+# composite trigger named t4
+t4 AND t2 t3
+# the trigger set contains t1 and t4
+ADD t1 t4 t3 t6
